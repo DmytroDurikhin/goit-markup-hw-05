@@ -558,9 +558,7 @@
     <!-- #endregion -->
     <!-- #region Modal -->
 
-    <!-- #endregion -->
-
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-close-btn" type="button"
           ><svg class="modal-icon" width="8" height="8">
@@ -613,12 +611,35 @@
                 class="modal-form-textarea"
                 name="comment"
                 id="comment"
+                rows=""
                 placeholder="Text input"
               ></textarea>
             </div>
+            <div class="modal-form-agreement">
+              <input
+                class="visually-hidden"
+                type="checkbox"
+                name="user-agreement"
+                id="user-agreement"
+                value="true"
+              />
+              <label class="modal-form-agreement-text" for="user-agreement">
+                <span class="modal-form-checkbox"
+                  ><svg class="modal-form-checkbox-icon" width="10" height="8">
+                    <use
+                      href="./images/icons.svg#icon-chekmark"
+                    ></use></svg></span
+                >I accept the terms and conditions of the
+                <a class="modal-form-link" href="/" target="_blank"
+                  >Privacy Policy</a
+                ></label
+              >
+            </div>
+            <button class="modal-btn" type="submit">Send</button>
           </div>
         </form>
       </div>
+      <!-- #endregion -->
     </div>
   </body>
 </html>
