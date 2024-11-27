@@ -736,6 +736,7 @@ input {
 input[type='checkbox']:checked
   + .modal-form-agreement-text
   .modal-form-checkbox {
+  background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
 }
