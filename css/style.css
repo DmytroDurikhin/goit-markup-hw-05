@@ -541,12 +541,15 @@ input {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+  /* gap: 16px; */
   padding: 8px 24px;
   fill: #fff;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-btn .svg-social-footer {
+  margin-left: 16px;
 }
 .svg-social-footer .footer-input-email:focus-visible {
   background-color: #31d0aa;
